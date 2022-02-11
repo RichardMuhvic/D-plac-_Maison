@@ -1,5 +1,5 @@
 body {
-    background-color: #141414;
+    background-color: #dfdfdf;
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,8 @@ body {
 
 /*---LOADING PAGE---*/
 #loading_page {
-    position: fixed;
+    background-color: #141414;
+    position: absolute;
     z-index: 50;
     width: 100%;
     height: 100%;
@@ -15,6 +16,18 @@ body {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    animation-name: translation;
+    animation-delay: 3s;
+    animation-timing-function: ease, step-start, cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    animation-duration: 0.3s;
+    @keyframes translation {
+        from {
+            height: 100%;
+        }
+        to {
+            height: 0%;
+        }
+    }
 }
 .chargement-image {
     display: flex;
