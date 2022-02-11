@@ -1,0 +1,39 @@
+----------------------------
+------ DEPLACE MAISON ------
+----------------------------
+
+
+COULEURS :
+beige : #fcf9ee
+beige middle : #e7d6c4
+marron dark : #141414
+jaune dark : #ddc92a
+
+
+
+ICONS :
+facebook : <i class="fab fa-facebook-f"></i>
+instagram : <i class="fab fa-instagram"></i>
+
+link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+TYPO :
+titre : Roboto Condensed Bold, letter space : -70
+sous titre : Roboto Condensed, letter space : 120
+paragraphe : roboto Condensed
+
+
+Roboto Condensed :
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+CSS : font-family: 'Roboto Condensed', sans-serif;
+
+Roboto :
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+
+font-family: 'Roboto', sans-serif;
