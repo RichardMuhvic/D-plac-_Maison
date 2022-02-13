@@ -95,8 +95,9 @@ header {
         overflow: hidden;
         height: 40px;
         a {
-            animation: slideup 0.9s cubic-bezier(.17,.38,.21,.99);
-            animation-delay: 0.5s;
+            animation: slideup 0.8s cubic-bezier(.17,.38,.21,.99);
+            animation-fill-mode: backwards;
+            animation-delay: 0.3s;
             @keyframes slideup {
                 0% { 
                     transform: translateY(50px);
@@ -154,14 +155,18 @@ header {
         }
         .under_title {
             padding-top: 33px;
-            animation: fadein 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
-            @keyframes fadein {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }   
+            h2 {
+                animation: fadein 0.5s ease-in forwards;
+                animation-fill-mode: backwards;
+                animation-delay: 0.5s;
+                @keyframes fadein {
+                    0% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }   
+                }    
             }
         }
     }
